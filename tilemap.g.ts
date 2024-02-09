@@ -183,15 +183,15 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,myTiles.tile1,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile22,myTiles.tile23,myTiles.tile24,myTiles.tile25,myTiles.tile27,myTiles.tile28,myTiles.tile21,myTiles.tile26,myTiles.tile29,myTiles.tile32,myTiles.tile33,myTiles.tile34,myTiles.tile35,myTiles.tile36,myTiles.tile38,myTiles.tile39,myTiles.tile40,myTiles.tile41,myTiles.tile42,myTiles.tile43,myTiles.tile44,myTiles.tile45,myTiles.tile46,myTiles.tile47,myTiles.tile48,myTiles.tile2,myTiles.tile18,myTiles.tile30,myTiles.tile49,myTiles.tile50,myTiles.tile52,myTiles.tile53,myTiles.tile54,myTiles.tile55,myTiles.tile56,myTiles.tile57,myTiles.tile58,myTiles.tile59,myTiles.tile60,myTiles.tile61,myTiles.tile62,myTiles.tile31,myTiles.tile37,myTiles.tile63,myTiles.tile64,myTiles.tile65,myTiles.tile66,myTiles.tile67,myTiles.tile68], TileScale.Sixteen);
             case "level0":
-            case "level3":return tiles.createTilemap(hex`080008000501010a0a01010604090909090909020b0d090909090e0c0b0d090909090e0c0b0d090909090e0c0b0d090909090e0c04090909090909020803030303030307`, img`
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
-. . . . . . . . 
+            case "level3":return tiles.createTilemap(hex`0a000800000501010a0a0101060000040909090909090200000b0d090909090e0c00000b0d090909090e0c00000b0d090909090e0c00000b0d090909090e0c000004090909090909020000080303030303030700`, img`
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
+. . . . . . . . . . 
 `, [myTiles.transparency16,myTiles.tile53,myTiles.tile69,myTiles.tile70,myTiles.tile71,myTiles.tile72,myTiles.tile74,myTiles.tile75,myTiles.tile76,myTiles.tile77,myTiles.tile78,myTiles.tile73,myTiles.tile80,myTiles.tile82,myTiles.tile83], TileScale.Sixteen);
         }
         return null;
