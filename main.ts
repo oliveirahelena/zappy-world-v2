@@ -1,4 +1,4 @@
-tiles.setCurrentTilemap(tilemap`level`)
+tiles.setCurrentTilemap(tilemap`level0`)
 let _package = sprites.create(assets.image`myImage4`, SpriteKind.Player)
 _package.setPosition(53, 79)
 let dede = sprites.create(assets.image`myImage2`, SpriteKind.Player)
