@@ -11,7 +11,7 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
 sprites.onOverlap(SpriteKind.Player, SpriteKind.NPC, function (sprite, otherSprite) {
     if (!(win)) {
         if (otherSprite == drByte) {
-            game.showLongText("Olá, amigo! Sei que causei uma confusão, mas precisamos resolver. Colete todos os packages e elimine todos os bugs atirando neles.", DialogLayout.Bottom)
+            game.showLongText("Olá, amigo! Sou o Dr. Byte. Sei que causei uma confusão, mas precisamos resolver. Colete todos os packages e elimine todos os bugs atirando neles.", DialogLayout.Bottom)
         } else {
             game.showLongText("Olá, amigo! Sem querer o Dr. Byte fez uma confusão aqui e tirou a cor da cidade. Mas só ele sabe como resolver isso. Vá até o laboratório dele.", DialogLayout.Bottom)
         }
@@ -124,7 +124,6 @@ dede = sprites.create(assets.image`myImage2`, SpriteKind.Player)
 controller.moveSprite(dede, 100, 100)
 scene.cameraFollowSprite(dede)
 tiles.placeOnRandomTile(dede, assets.tile`myTile66`)
-color.startFade(color.originalPalette, color.GrayScale)
 game.onUpdateInterval(5000, function () {
     if (packagesQuantity > 0 && level == 0) {
         _package = sprites.create(assets.image`myImage4`, SpriteKind.Food)
@@ -150,7 +149,6 @@ forever(function () {
     if (!(win)) {
         if (enemyQuantity == 0 && (packagesQuantity == 0 && (sprites.allOfKind(SpriteKind.Enemy).length == 0 && sprites.allOfKind(SpriteKind.Food).length == 0))) {
             win = true
-            color.startFade(color.GrayScale, color.originalPalette)
             game.splash("Parabéns! Você salvou a cidade!")
         }
     }

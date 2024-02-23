@@ -351,10 +351,10 @@ bbbbbbbccccbbbbbbfdcccccccccccccccccccccccccccccccccccccccccccccddcccccccccccbbf
 `;
             case "image8":
             case "laser":return img`
-5 5 5 5 
-5 5 5 5 
-5 5 5 5 
-5 5 5 5 
+. 6 6 . 
+6 9 1 6 
+6 9 9 6 
+. 6 6 . 
 `;
         }
         return null;
